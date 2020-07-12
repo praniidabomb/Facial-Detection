@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-face_cascade = cv2.CascadeClassifier("immaSmart.xml")
+face_cascade = cv2.CascadeClassifier("dataSet.xml")
 vid = cv2.VideoCapture(0)
 scale_factor = 1.3
 
